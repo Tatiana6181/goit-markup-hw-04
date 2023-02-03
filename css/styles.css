@@ -99,6 +99,7 @@ border-bottom: 1px solid var(--accent);
 }
 .header-item {
   margin-right: 40px;
+  
 }
 .header-item:last-child {
   margin-right: 0;
@@ -144,7 +145,11 @@ border-bottom: 1px solid var(--accent);
   background-color: var(--hero-bgd-d);
   padding-top: 188px;
   padding-bottom: 188px;
-}
+  background-image:url(../images/people-office.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+} 
+
 .hero-title {
   font-size: 56px;
   line-height: calc(60 / 56);
