@@ -266,7 +266,6 @@ img {
 /* Our Team */
 
 .team {
-  max-width: 1440px;
   margin-right: auto;
   margin-left: auto;
   background-color: var(--light);
@@ -370,6 +369,7 @@ img {
 .customers-team {
   width: 166px;
   height: 88px;
+  
 }
 .customers-link {
   display: flex;
@@ -377,7 +377,7 @@ img {
   justify-content: center;
   width: 100%;
   height: 100%;
-  border: 2px solid var(--subtle-text);
+  border: 1px solid var(--subtle-text);
   border-radius: 4%;
   color: var(--subtle-text);
 }
@@ -397,7 +397,6 @@ img {
 /* Footer */
 
 .footer {
-  max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
   background-color: var(--hero-bgd-d);
