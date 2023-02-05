@@ -226,10 +226,11 @@ img {
   background-color: var(--light);
   margin-bottom: 8px;
 }
-.simple-icons {
+.features-icon {
+  width: 64px;
+  height: 64px;
 }
-.bg-simple-icons {
-}
+
 .features-subtitle {
   font-weight: var(--h-trd-wght);
   font-size: var(--h-trd-sz);
