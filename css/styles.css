@@ -379,19 +379,19 @@ img {
   height: 100%;
   border: 2px solid var(--subtle-text);
   border-radius: 4%;
+  color: var(--subtle-text);
+}
+
+.customers-icon {
+  width: 104px;
+  height: 56px;
+  fill: currentColor;
 }
 
 .customers-link:hover,
 .customers-link:focus {
   border: 2px solid var(--pressed-state);
-}
-.customers-icon:hover,
-.customers-icon:focus {
-  fill: var(--pressed-state);
-}
-
-.customers-icon {
-  fill: var(--subtle-text);
+  color: var(--pressed-state);
 }
 
 /* Footer */
